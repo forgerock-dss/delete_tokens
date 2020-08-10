@@ -135,6 +135,6 @@ $AM_DELETE_SESSIONS | jq .
 jqCheck
 authNTarget
 authNAdmin
-#setUserInactive
+setUserInactive
 getActiveSessions
 getActiveSessions
