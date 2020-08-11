@@ -51,7 +51,7 @@ fi
 authNTarget(){
 clear
 echo "*********************"
-echo "Authenticating $TARGET_USERNAME user $TARGET_AUTHN_ITERATIONS to generate a set of sample SSO tokens"
+echo "Authenticating $TARGET_USERNAME user $TARGET_AUTHN_ITERATIONS times to generate a set of sample SSO tokens"
 
 for (( n=1; n<=$TARGET_AUTHN_ITERATIONS; n++ ))
 do
